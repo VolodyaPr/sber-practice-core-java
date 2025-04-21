@@ -12,7 +12,7 @@ public class Task2a {
     public static String translate(int num) {
         String new_number = "";
         if (num > 100 || num <= 0){
-            return new_number += "Неверное число. Введите число от 1 до 100";
+            return new_number += "Неверное число Введите число от 1 до 100";
         }
         else if (num == 100) {
             new_number += "C";
