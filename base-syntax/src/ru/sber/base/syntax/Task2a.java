@@ -1,7 +1,7 @@
 package ru.sber.base.syntax;
 import java.util.Scanner;
 
-class Translate {
+public class Task2a {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
@@ -11,7 +11,10 @@ class Translate {
 
     public static String translate(int num) {
         String new_number = "";
-        if (num == 100) {
+        if (num > 100 || num <= 0){
+            return new_number += "Неверное число. Введите число от 1 до 100";
+        }
+        else if (num == 100) {
             new_number += "C";
         } else if (num / 10 < 4) {
             for (int i = 1; i <= num / 10; i++) {
@@ -51,4 +54,3 @@ class Translate {
         return String.valueOf(new_number);
     }
 }
-
