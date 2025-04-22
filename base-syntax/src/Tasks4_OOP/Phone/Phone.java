@@ -36,7 +36,7 @@ public class Phone {
     }
 
     public void sendMessage(String[] numbers) {
-        System.out.println("Сообщения отправлены на следующие номера:");
+        System.out.println("Сообщения отправлены на следующие номера: ");
         for (String num : numbers) {
             System.out.println(num);
         }

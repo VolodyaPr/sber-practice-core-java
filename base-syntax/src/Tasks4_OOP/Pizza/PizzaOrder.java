@@ -18,18 +18,18 @@ public class PizzaOrder {
     public void order() {
         if (!orderAccepted) {
             orderAccepted = true; // Заказ принят
-            System.out.println("Заказ принят. " + toString());
+            System.out.println("Заказ принят " + toString());
         } else {
-            System.out.println("Заказ уже принят.");
+            System.out.println("Заказ уже принят");
         }
     }
 
     public void cancel() {
         if (orderAccepted) {
             orderAccepted = false; // Заказ отменен
-            System.out.println("Заказ отменен.");
+            System.out.println("Заказ отменен");
         } else {
-            System.out.println("Заказ не был принят.");
+            System.out.println("Заказ не был принят");
         }
     }
 

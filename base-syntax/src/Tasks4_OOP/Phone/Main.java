@@ -3,7 +3,7 @@ package Tasks4_OOP.Phone;
 public class Main {
     public static void main(String[] args) {
         Phone phone1 = new Phone("123-123-1234", "IPhone 22", 345);
-        Phone phone2 = new Phone("9-987-555-999", "Google pro XL");
+        Phone phone2 = new Phone("9-987-555-995", "Google pro XL");
         Phone phone3 = new Phone();
 
         phone1.receiveCall("Иосиф");

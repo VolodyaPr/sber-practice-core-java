@@ -15,7 +15,7 @@ public class Matrix {
         if (i >= 0 && i < rows && j >= 0 && j < cols) {
             array[i][j] = value;
         } else {
-            throw new IndexOutOfBoundsException("Индексы выходят за пределы матрицы.");
+            throw new IndexOutOfBoundsException("Индексы выходят за пределы матрицы");
         }
     }
 

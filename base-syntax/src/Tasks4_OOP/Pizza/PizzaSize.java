@@ -1,7 +1,7 @@
 package Tasks4_OOP.Pizza;
 
 public enum PizzaSize {
-    SMALL("Маленькая пицца"),
+    SMALL("Маленькая пицца "),
     MEDIUM("Средняя пицца"),
     BIG("Большая пицца");
 

@@ -18,8 +18,8 @@ public class Main {
         System.out.println("Сумма матриц:");
         sumMatrix.print();
 
-        Matrix scalarMatrix = matrix1.multiplyByScalar(5.0);
-        System.out.println("Умножение первой матрицы на 5:");
+        Matrix scalarMatrix = matrix1.multiplyByScalar(7.0);
+        System.out.println("Умножение первой матрицы на 7:");
         scalarMatrix.print();
 
         Matrix productMatrix = matrix1.multiply(matrix2);
